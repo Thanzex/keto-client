@@ -21,7 +21,7 @@ export declare type QueryResponse = {
     relation_tuples: RelationTuple[];
 };
 export interface ExpandResponse {
-    children: any[];
+    children: ExpandResponse[];
     subject_set?: SubjectSet;
     subject_id?: string;
     type: string;

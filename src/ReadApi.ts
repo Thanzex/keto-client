@@ -28,7 +28,7 @@ export type QueryResponse = {
 }
 
 export interface ExpandResponse {
-    children: any[]
+    children: ExpandResponse[]
     subject_set?: SubjectSet
     subject_id?: string
     type: string

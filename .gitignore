@@ -1,1 +1,4 @@
 node_modules
+dist/test.d.ts.map
+dist/test.js
+src/test.ts
